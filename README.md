@@ -2,13 +2,15 @@
 
 Sistem Rekomendasi Penyakit dan Makanan
 
+Untuk Preprocessed dataset dapat diakses di [drive](https://drive.google.com/drive/folders/1YMfE7MsEEblWVEM5w0lTZsCWlV5fBY9Y?usp=sharing)
+
 ## Petunjuk Instalasi
 
 1. Pastikan Anda telah menginstal Python. Jika belum, instal Python dari [situs resmi Python](https://www.python.org/).
 2. Unduh atau salin script ke direktori lokal Anda.
 
    ```bash
-   git clone https://github.com/nama-pengguna/proyek-api-fastapi.git
+   git clone https://github.com/Wahyuwardana2/api-sistem-rekomendasi-makanan.git
    ```
 
 3. Buka terminal atau command prompt dan navigasi ke direktori tempat Anda menyimpan script.
