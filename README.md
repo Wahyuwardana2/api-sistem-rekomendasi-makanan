@@ -37,7 +37,7 @@ Untuk Preprocessed dataset dapat diakses di [drive](https://drive.google.com/dri
 1. Pastikan virtual environment sudah aktif.
 2. Jalankan script menggunakan perintah:
    ```bash
-   python script.py
+   python main.py
    ```
 
 ## Petunjuk Penggunaan Pencarian Penyakit dan Makanan melalui Link API
@@ -47,7 +47,7 @@ Untuk Preprocessed dataset dapat diakses di [drive](https://drive.google.com/dri
    uvicorn app:app --reload
    ```
 2. Buka browser dan akses [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs) untuk menggunakan Swagger UI.
-3. Pada Swagger UI, gunakan endpoint `/api/recommend_food/{nama_penyakit}` untuk mencari rekomendasi makanan berdasarkan penyakit. Ganti `{nama_penyakit}` dengan nama penyakit yang ingin dicari.
-4. Juga, Anda dapat menggunakan endpoint `/api/recommend_disease/{nama_makanan}` untuk mencari rekomendasi penyakit berdasarkan makanan. Ganti `{nama_makanan}` dengan nama makanan yang ingin dicari.
+3. Pada Swagger UI, gunakan endpoint `{link}/api/recommend_food/{nama_penyakit}` untuk mencari rekomendasi makanan berdasarkan penyakit. Ganti `{nama_penyakit}` dengan nama penyakit yang ingin dicari.
+4. Juga, Anda dapat menggunakan endpoint `{link}/api/recommend_disease/{nama_makanan}` untuk mencari rekomendasi penyakit berdasarkan makanan. Ganti `{nama_makanan}` dengan nama makanan yang ingin dicari.
 
 **Catatan**: Pastikan untuk mengganti placeholder seperti `script.py`, `requirements.txt`, `app:app`, dll., sesuai dengan struktur direktori dan nama file yang sesungguhnya.
