@@ -3,6 +3,7 @@
 Sistem Rekomendasi Penyakit dan Makanan
 
 Untuk Preprocessed dataset dapat diakses di [drive](https://drive.google.com/drive/folders/1YMfE7MsEEblWVEM5w0lTZsCWlV5fBY9Y?usp=sharing)
+Untuk Source Code FrontEnd dapat diakses di [github](https://github.com/Wahyuwardana2/sehatin)
 
 ## Petunjuk Instalasi
 
